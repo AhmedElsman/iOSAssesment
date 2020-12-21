@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ArticleTableViewCell" rowHeight="58" id="2Ri-eW-6yO" customClass="ArticleTableViewCell" customModule="iOSAssesment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="58"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2Ri-eW-6yO" id="7D3-5r-2Up">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="58"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uzm-sT-EMO">
+                        <rect key="frame" x="16" y="57.5" width="351" height="0.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="K3A-zY-wbz"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="D6K-po-06l">
+                        <rect key="frame" x="15" y="8" width="150" height="18"/>
+                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Aaq-bM-mZg">
+                        <rect key="frame" x="15" y="34" width="150" height="18"/>
+                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="D6K-po-06l" firstAttribute="width" secondItem="7D3-5r-2Up" secondAttribute="width" multiplier="0.4" id="2hc-tH-J3x"/>
+                    <constraint firstItem="D6K-po-06l" firstAttribute="leading" secondItem="7D3-5r-2Up" secondAttribute="leading" constant="15" id="6bq-ZZ-ong"/>
+                    <constraint firstItem="Aaq-bM-mZg" firstAttribute="width" secondItem="D6K-po-06l" secondAttribute="width" id="8en-vH-MAa"/>
+                    <constraint firstItem="uzm-sT-EMO" firstAttribute="leading" secondItem="7D3-5r-2Up" secondAttribute="leading" constant="16" id="9Al-jV-lMy"/>
+                    <constraint firstItem="D6K-po-06l" firstAttribute="top" secondItem="7D3-5r-2Up" secondAttribute="top" constant="8" id="Z9T-2j-sgB"/>
+                    <constraint firstAttribute="bottom" secondItem="Aaq-bM-mZg" secondAttribute="bottom" constant="6" id="cVB-zB-8Oo"/>
+                    <constraint firstAttribute="trailing" secondItem="uzm-sT-EMO" secondAttribute="trailing" constant="8" id="e5v-nx-i7C"/>
+                    <constraint firstItem="Aaq-bM-mZg" firstAttribute="leading" secondItem="D6K-po-06l" secondAttribute="leading" id="lXb-f3-HpA"/>
+                    <constraint firstAttribute="bottom" secondItem="uzm-sT-EMO" secondAttribute="bottom" id="uMU-Ba-eeA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="articleSection" destination="Aaq-bM-mZg" id="CeU-Hz-vlw"/>
+                <outlet property="articleType" destination="D6K-po-06l" id="KAl-gS-EXG"/>
+            </connections>
+            <point key="canvasLocation" x="80" y="-184"/>
+        </tableViewCell>
+    </objects>
+</document>
