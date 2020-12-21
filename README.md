@@ -19,9 +19,9 @@
 
   <!-- HINT -->
 ### Hints
-1. This is my first time to write in deep with RxSwift cause of no need in business for this strategy of work (but available to learn and learn more) it's just getting the main idea and the right structure to keep on the same line for all features.
+1. This is my first time to write in deep with RxSwift cause of no need in business for this strategy of work (but interested for learning more) it's just getting the main idea and the right structure to keep on the same line for all features.
 2. Usualy i works with MVP + delegates with router and builder.
-3. I couldn't write any unit test unfortunatly i can write it for sure but in my work there is no time for writing unit tests as ususal cause of business owners background for not needing that criteria of work and spending more time on it (but as usual available to learn and learn more) to get the right way.
+3. I couldn't write any unit test unfortunatly.
 
 <!-- ABOUT THE PROJECT -->
 ### Built With
